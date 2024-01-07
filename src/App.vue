@@ -1,9 +1,9 @@
 <script setup>
+  import LandingPage from '@/views/LandingPage.vue';
 </script>
 
 <template>
-  <h1>Slow Degrade</h1>
-  <h2>Diego was here</h2>
+    <landing-page></landing-page>
 </template>
 
 <style scoped>
