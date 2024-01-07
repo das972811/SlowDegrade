@@ -1,15 +1,18 @@
 <script setup>
     defineProps({
-        src: String
+        src: {
+            type: String,
+            required: true,
+        }
     });
 </script>
 
 <template>
-    <div class="video-background">
+    <base-container class="video-background">
         <video autoplay loop muted>
             <source :src="src" type="video/mp4" />
         </video>
-    </div>
+    </base-container>
 </template>
 
 <style scoped>
@@ -22,6 +25,7 @@
     .video-background video {
         width: 100%;
         height: 100%;
+        display: block;
         object-fit: cover;
     }
 </style>
