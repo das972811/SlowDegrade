@@ -8,8 +8,8 @@
 </script>
 
 <template>
-    <base-container class="video-background">
-        <video autoplay loop muted>
+    <base-container class="video-background" disabled>
+        <video autoplay="autoplay" loop muted>
             <source :src="src" type="video/mp4" />
         </video>
     </base-container>

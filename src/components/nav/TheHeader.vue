@@ -1,18 +1,19 @@
 <script setup>
     import BaseBackgroundVideo from '@/components/shared/BaseBackgroundVideo.vue';
+    import TheHeaderNav from '@/components/nav/TheHeaderNav.vue';
     import BackgroundVideo from '@/assets/video/landingPageVideoBG.mp4';
 </script>
 
 <template>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Desolation</a></li>
-                <li><a href="#">Melancholy</a></li>
-                <li><a href="#">Woes</a></li>
-                <li><a href="#">Solitude</a></li>
-            </ul>
-        </nav>
+        <base-container tag="nav">
+            <!-- Nav -->
+            <the-header-nav></the-header-nav>
+            <!-- EndNav -->
+        </base-container>
         <base-background-video :src="BackgroundVideo"></base-background-video>
     </header>
 </template>
+
+<style scoped>
+</style>
