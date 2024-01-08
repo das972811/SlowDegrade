@@ -4,7 +4,7 @@
 <template>
     <footer>
         <base-container>
-            <p>This a generic footer</p>
+            <p>This a generic footer!</p>
         </base-container>
     </footer>
 </template>
