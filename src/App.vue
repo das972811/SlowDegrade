@@ -1,9 +1,8 @@
 <script setup>
-  import LandingPage from '@/views/LandingPage.vue';
 </script>
 
 <template>
-    <landing-page></landing-page>
+  <h2>Diego was here</h2>
 </template>
 
 <style scoped>
